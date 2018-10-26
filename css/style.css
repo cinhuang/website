@@ -1,0 +1,112 @@
+
+body {
+      background-image: url('../images/background2.jpg');
+      background-position: center; /* Center the image */
+      background-size: cover; /* Cover the whole screen */
+  	  background-repeat: no-repeat; /* Do not repeat the image */
+}
+
+
+
+img{
+	width: 200px;
+	height: 200px;
+	border-radius: 20px;
+}
+
+
+
+img[src = "images/profilepicture.JPG"] {
+	width: 200px;
+	border-radius: 15px;
+
+}
+
+.center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 30%;
+}
+
+
+h1{
+	font-family: 'Quattrocento Sans', sans-serif;
+	text-align: center;
+}
+
+h2{
+	font-family: 'Quattrocento Sans', sans-serif;
+	font-size: medium;
+}
+
+
+p{
+	font-family: 'Quattrocento Sans', sans-serif;
+	text-align: center;
+	font-size: large;
+}
+
+
+
+li{
+	display: inline-block;
+	width: 18%;
+	font-family: 'verdana', cursive;
+	font-size: 20px
+}
+
+a:visited {
+	color: rgb(48,48,48);
+}
+
+
+
+.current{
+	text-transform: uppercase;
+
+}
+
+
+section {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+
+	.pictures{
+		min-width: 0;
+		margin: 5px;
+	}
+
+
+	img {
+		width: 100px;
+		max-width: 100px;
+		max-height: 350;
+		object-fit: scale-down;
+	}
+}
+
+
+.fab{
+	font-size: 5em;
+}
+
+.fab:hover {
+	opacity: 0.8;
+}
+
+.far{
+	font-size: 5em;
+}
+
+.far:hover{
+	opacity: 0.7;
+}
+
+iframe{
+	display: block;
+	height: 1000%;
+	width: 100%;
+	margin: 0;
+}
